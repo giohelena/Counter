@@ -1,0 +1,65 @@
+.container{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1{
+    font-size:100px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    margin:0px;
+}
+
+#value{
+    font-size:150px;
+    font-weight: bold;
+    margin:0px;
+}
+
+.btn{
+    font-size:20px;
+    letter-spacing:10px;
+    background-color:white;
+    border: 3px solid black;
+    border-radius:13px;
+    padding:10px 20px;
+    margin:0px 20px;
+}
+
+.btn:hover { 
+    color:white;
+    background-color: black; 
+    transition: 0.3s;
+}
+
+@media (max-width:480px){
+    h1{
+        font-size:80px;
+    }
+
+    .button-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        margin:20px;
+        font-size:15px;
+    }
+}
+
+@media (max-width:780px){
+    .button-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        margin:20px;
+    }
+}
